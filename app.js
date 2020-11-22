@@ -31,11 +31,7 @@ console.clear();
 const mongoDB = require('./database');
 console.log(mongoDB.OpenConnection.toString());
 
-async function HomoFiili(){
-	console.log(await mongoDB.LoadAccount());
-}
 
-HomoFiili();
 
 
 
