@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="/file/widget?file=codeviewer/style.css">
+<link rel="stylesheet" href="/file/widget?file=codeviewer/prism.css">
+
+<pre class="codeviewer language-javascript"><code><%- code %></code></pre>
+
+<script src="/file/widget?file=codeviewer/prism.js" data-manual></script>
+
+<script type="text/javascript">
+	
+	var code = document.getElementsByTagName("code")[0];
+	code.innerHTML = Prism.highlight(code.innerHTML, Prism.languages.javascript, 'javascript');
+
+</script>

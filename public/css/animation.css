@@ -1,0 +1,13 @@
+@keyframes links {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes social {
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
+@keyframes header-slide {
+	
+}
